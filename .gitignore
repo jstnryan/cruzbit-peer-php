@@ -1,0 +1,10 @@
+# composer
+vendor/
+
+# OS cruft
+.DS_Store
+desktop.ini
+
+# IDE
+.idea
+

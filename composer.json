@@ -1,0 +1,12 @@
+{
+    "require": {
+        "ratchet/pawl": "^0.3.4",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cruzbit\\": "src/"
+        }
+    }
+}
