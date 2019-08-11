@@ -1,3 +1,6 @@
+# local configuration
+settings.php
+
 # composer
 vendor/
 

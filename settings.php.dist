@@ -1,0 +1,28 @@
+<?php
+
+$settings = [
+    'socket' => [
+        'peer_address' => 'dns.cruzb.it:8831',
+        'genesis_block' => '00000000e29a7850088d660489b7b9ae2da763bc3bd83324ecc54eee04840adb',
+        'protocols' => [
+            'cruzbit.1',
+        ],
+        'origin' => 'https://cruzb.it',
+    ],
+
+    'database' => [
+        'host' => 'localhost',
+        'user' => 'username',
+        'password' => 'password',
+        'database' => 'blockchain',
+    ],
+
+    //The amount of logging to do to the CLI
+    // critical errors are always logged to file
+    // 0 - silent; no output
+    // 1 - quiet;
+    // 2 - normal; emulates the reference client
+    // 3 - verbose;
+    // 4 - debug; output everything
+    'noise_level' => 2,
+];
